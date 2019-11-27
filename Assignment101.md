@@ -5,7 +5,7 @@
               1 2 1
             1 2 3 2 1
           1 2 3 4 3 2 1
-### Solution
+#### Solution:
 
 ```python
 n = int(input("enter no of rows to print."))
@@ -20,7 +20,7 @@ for i in range(1, n+1):
     print('\r')
     
 ```
-### Second Way
+#### Second Way:
 
 ```python
 n = int(input("enter no of rows to print."))
@@ -29,7 +29,7 @@ for i in range(1, n+1):
     print(' '.join([str(k) for k in range(1, i+1)])),       # print no in asc order  
     print(' '.join([str(m) for m in range(i-1, 0, -1)]))   # print no in desc order
 ```
-### Another Way
+#### Another Way:
 
 ```python
 n = int(input("enter no of rows to print."))
@@ -44,6 +44,8 @@ for i in range(1, n+1):
 ```
 
 > 2. Define a main function which calls another function. The second function should accept integer value as parameter and return the Fibonacci series. For example: 0, 1, 1, 2, 3, 5, 8, 13 and so on...
+
+#### Solution:
 
 ```python
 def printFibonacci(n):
