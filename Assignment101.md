@@ -1,5 +1,6 @@
 
 > 1. Print below mentioned structured. Accept input from user as no. of rows to print:
+
                 1
                1 2
               1 2 1
